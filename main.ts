@@ -5,13 +5,13 @@
  * This program finds the distance between the sonar and an object
 */
 
-//variable
-let distanceToObject:number = 0
+//  variable
+let distanceToObject: number = 0
 
-//setup
+//  setup
 basic.showIcon(IconNames.Happy)
 
-//find distance from sonar
+//  find distance from sonar
 input.onButtonPressed(Button.A, function () {
  basic.clearScreen()
  distanceToObject = sonar.ping(
